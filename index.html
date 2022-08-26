@@ -8,16 +8,23 @@
     <title>wirlessHeadphone</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link
         href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Fjalla+One&family=M+PLUS+Rounded+1c:wght@100&family=Mochiy+Pop+One&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="phone.css">
 </head>
 
 <body>
     <!-------------- Navbar-Section---------->
     <nav id="navbar">
         <img src="images/logo.svg" alt="This is logo" class="logo">
+        <input type="checkbox" id="check">
+        <label for="check">
+            <i class="fa-solid fa-bars" id="btn"></i>
+            <i class="fa-solid fa-xmark" id="cancel"></i>
+        </label>
         <ul id="menu-item">
             <li class="list-item"><a class="active" href="#">Home</a></li>
             <li class="list-item"><a href="#">Product</a></li>
@@ -71,6 +78,7 @@
     </div>
 
     <!-- ---------headphone-discount-image-heading-section---------  -->
+    
 
     <img src="images/headphones.jpg" alt="This is headphone" class="headphone">
     <img src="images/discount.svg" alt="This is discount img" class="discount-img">

@@ -1,0 +1,87 @@
+/*-----------Navbar_Section--------------*/
+@media (max-width: 770px) {
+  #navbar {
+    border: 0.5px solid #fff;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    z-index: 1;
+    border: 0.5px solid red;
+    justify-content: space-between;
+  }
+  .logo {
+    height: 35px;
+    width: 150px;
+    margin-top: 15px;
+  }
+  #btn,
+  #cancel {
+    margin-right: 25px;
+  }
+  #btn {
+    display: block;
+  }
+
+  #menu-item {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 85vh;
+    top: 62px;
+    left: -100%;
+    transition: all 0.5s;
+    background-color: rgb(29, 25, 25);
+  }
+  .list-item {
+    line-height: 45px;
+    margin: 20px 10px;
+  }
+  .list-item a {
+    font-size: 22px;
+  }
+  .nav-icons {
+    display: none;
+  }
+
+  #check:checked ~ #menu-item {
+    left: 0;
+  }
+  #check:checked ~ label #btn {
+    display: none;
+  }
+  #check:checked ~ label #cancel {
+    display: block;
+  }
+}
+
+@media (max-width: 1100px) {
+  #main-heading h1 {
+    font-size: 40px;
+  }  
+}
+@media (max-width: 900px) {
+  #main-heading h1 {
+    font-size: 30px;
+  }  
+}
+@media (max-width: 677px) {
+    #circles-heading-section #heading1st {
+        font-size: 28px;
+      }
+      #circles-heading-section .circle-img {
+        height: 30px;
+        width: 40px;
+      }
+    #main-heading h1 {
+    font-size: 20px;
+  }  
+}
+@media (max-width: 620px) {
+.plus-text {
+    font-size: 15px;
+    padding: 5px 15px;
+  }
+}

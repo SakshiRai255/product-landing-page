@@ -5,17 +5,19 @@
 }
 
 #navbar {
-  margin-top: 3vh;
+
   display: flex;
   justify-content: space-between;
 }
 .logo {
   margin-left: 35px;
+  margin-top: 30px;
   height: 40px;
   width: 100px;
 }
 /* --------Menu-Item---------- */
 #menu-item {
+  margin-top: 20px;
   display: flex;
   align-items: center;
   list-style: none;
@@ -35,15 +37,27 @@
 }
 .nav-icons {
   width: 20vw;
+  margin-top: 10px;
+}
+#btn,
+#cancel {
+
+  font-size: 35px;
+  line-height: 80px;
+  cursor: pointer;
+  margin-right: 25px;
+  display: none;
+}
+#check {
+  display: none;
 }
 /*----------Cecles-Heading-Buttons-Plus-section--------- */
 
 #circles-heading-section {
   display: flex;
   align-items: center;
-  position: absolute;
-  top: 20vh;
-  left: 3vw;
+  margin-top: 10vh;
+  margin-left: 3vw;
 }
 #circles-heading-section #heading1st {
   font-family: "Abel", sans-serif;
@@ -57,9 +71,9 @@
 }
 
 #main-heading {
-  position: absolute;
-  top: 30vh;
-  left: 3vw;
+  margin-left: 3vw;
+  margin-top: 10px;
+  
 }
 #main-heading h1 {
   font-family: "Mochiy Pop One", sans-serif;
@@ -70,9 +84,8 @@
 
 #plus-lines-section {
   text-align: center;
-  position: absolute;
-  top: 47vh;
-  left: 8vw;
+  margin-top: 45px;
+  margin-left: 8vw;
 }
 .plus-icons {
   display: flex;
@@ -83,8 +96,7 @@
   background-color: rgb(248, 107, 55);
   margin-bottom: 15px;
 }
-.plus-img {
-}
+
 .plus-text {
   font-family: "M PLUS Rounded 10c", sans-serif;
   font-size: 20px;
@@ -92,9 +104,8 @@
 }
 
 #paragrapg-line {
-  position: absolute;
-  top: 75vh;
-  left: 3vw;
+  margin-top: 15px;
+  margin-left: 3vw;
   width: 40vw;
 }
 #paragrapg-line p {
@@ -103,9 +114,8 @@
 /* ---------Button-Left------------- */
 
 #button-left {
-  position: absolute;
-  top: 89vh;
-  left: 3vw;
+  margin-top: 25px;
+  margin-left: 3vw;
 }
 .btn-left {
   border: none;
