@@ -41,7 +41,6 @@
 }
 #btn,
 #cancel {
-
   font-size: 35px;
   line-height: 80px;
   cursor: pointer;
@@ -96,7 +95,6 @@
   background-color: rgb(248, 107, 55);
   margin-bottom: 15px;
 }
-
 .plus-text {
   font-family: "M PLUS Rounded 10c", sans-serif;
   font-size: 20px;
@@ -128,7 +126,7 @@
 }
 /*-----------headphone-discount-image-heading-section--------- */
 
-.headphone {
+.headphone-img {
   position: absolute;
   top: 15vh;
   left: 55vw;

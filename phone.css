@@ -3,21 +3,21 @@
   #navbar {
     border: 0.5px solid #fff;
     align-items: center;
-    width: 100%;
+    width: 90%;
     box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
     background-color: #fff;
-    z-index: 1;
-    border: 0.5px solid red;
-    justify-content: space-between;
+    /* justify-content: space-between; */
   }
   .logo {
     height: 35px;
-    width: 150px;
+    width: 120px;
     margin-top: 15px;
+    margin-left: 15px;
   }
   #btn,
   #cancel {
-    margin-right: 25px;
+    font-size: 30px;
+    margin-right: 40px;
   }
   #btn {
     display: block;
@@ -34,6 +34,7 @@
     left: -100%;
     transition: all 0.5s;
     background-color: rgb(29, 25, 25);
+    display: none;
   }
   .list-item {
     line-height: 45px;
@@ -60,28 +61,91 @@
 @media (max-width: 1100px) {
   #main-heading h1 {
     font-size: 40px;
-  }  
+  }
 }
 @media (max-width: 900px) {
   #main-heading h1 {
     font-size: 30px;
-  }  
+  }
+  #circles-heading-section #heading1st {
+    font-size: 30px;
+  }
 }
 @media (max-width: 677px) {
-    #circles-heading-section #heading1st {
-        font-size: 28px;
-      }
-      #circles-heading-section .circle-img {
-        height: 30px;
-        width: 40px;
-      }
-    #main-heading h1 {
+  #circles-heading-section #heading1st {
+    font-size: 18px;
+  }
+  #circles-heading-section .circle-img {
+    height: 30px;
+    width: 30px;
+  }
+  #main-heading h1 {
     font-size: 20px;
-  }  
+  }
 }
-@media (max-width: 620px) {
-.plus-text {
-    font-size: 15px;
-    padding: 5px 15px;
+
+/*------------ plus-lines-section ---------*/
+@media (max-width: 677px) {
+  #plus-lines-section {
+    margin-top: 35px;
+    margin-left: 3vw;
+  }
+  .plus-text {
+    font-size: 14px;
+    padding: 4px 10px;
+  }
+  .orrange-circle {
+    border-radius: 50%;
+    padding: 2px 2px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 770px) {
+  #button-left {
+    margin-top: 25px;
+    margin-left: 5px;
+  }
+  .btn-left {
+    margin: 0px 10px;
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+}
+/*-----------headphone-discount-image-heading-section--------- */
+@media (max-width: 770px) {
+  .headphone-img {
+    top: 21vh;
+    left: 55vw;
+    height: 60vh;
+    width: 30vw;
+  }
+  .discount-img {
+    top: 54vh;
+    left: 43vw;
+  }
+  #discount-heading-section {
+    top: 58vh;
+    left: 47vw;
+    width: 20vw;
+    
+  }
+  .discount {
+    margin-left: 10px;
+    font-size: 13px;
+  }
+  .discount-percent {
+    font-size: 25px;
+  }
+  #yellow-orrange-black-cercle {
+    top: 82vh;
+    left: 57vw;
+  }
+  #yellow-orrange-black-cercle span {
+    border-radius: 50%;
+    padding: 5px 8px;
+    margin: 7px 12px;
+  }
+  #button-right {
+    display: none;
   }
 }
